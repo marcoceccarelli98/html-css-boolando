@@ -41,9 +41,12 @@ img {
     width: 100%;
 }
 
+.main-pic {
+    /* display: block; */
+}
+
 .hover-pic {
     display: none;
-    margin-bottom: 4px;
 }
 
 .content:hover .main-pic {
@@ -51,7 +54,7 @@ img {
 }
 
 .content:hover .hover-pic {
-    display: block;
+    display: inline-block;
 }
 
 /* ----- TEXT ----- */
