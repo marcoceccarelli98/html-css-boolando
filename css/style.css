@@ -17,7 +17,7 @@ main {
 /* IMAGES */
 
 .content {
-    background-color: red;
+    background-color: yellow;
 }
 
 img {
@@ -34,4 +34,15 @@ img {
 
 .item {
     font-weight: 600;
+}
+
+.price {
+    font-weight: 600;
+    color: red;
+}
+
+.sale {
+    font-weight: 400;
+    color: black;
+    text-decoration: line-through;
 }
