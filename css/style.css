@@ -83,18 +83,20 @@ img {
     text-decoration: line-through;
 }
 
-.sale-label {
+.labels {
     position: absolute;
+}
+
+.sale-label {
     font-size: 15px;
     background-color: red;
     color: white;
     font-weight: 600;
     padding: 5px 12px;
-    top: 490px;
+    margin-right: 5px;
 }
 
 .sus-label {
-    position: absolute;
     font-size: 15px;
     background-color: green;
     color: white;
