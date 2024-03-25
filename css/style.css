@@ -12,19 +12,47 @@ main {
     margin-top: 100px;
 }
 
+/* POSITION */
+.left-0 {
+    left: 0px;
+}
+
+.right-210 {
+    right: 210px;
+}
+
+.top-10 {
+    top: 10px
+}
+
+.top-490 {
+    top: 490px
+}
+
 /* HEADER */
 
 /* IMAGES */
 
 .content {
     position: relative;
-    background-color: yellow;
 }
 
 img {
     width: 100%;
 }
 
+.hover-pic {
+    display: none;
+    margin-bottom: 4px;
+}
+
+.content:hover .main-pic {
+    display: none;
+}
+
+.content:hover .hover-pic {
+    display: block;
+}
 
 /* ----- TEXT ----- */
 .text {
@@ -69,8 +97,6 @@ img {
     color: white;
     font-weight: 600;
     padding: 5px 10px;
-    top: 490px;
-    right: 210px;
 }
 
 .hearts-label {

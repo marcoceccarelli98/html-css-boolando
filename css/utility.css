@@ -129,16 +129,3 @@
 .bg-lilac {
     background-color: #8EA1E1;
 }
-
-.bg-jumbo {
-    background-image: url(../img/jumbo.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.bg-stars {
-    background-image: url(../img/stars.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-position-y: top;
-}
