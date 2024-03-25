@@ -18,6 +18,17 @@
     display: flex;
 }
 
+/* JUSTIFY */
+
+.center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+/*----------- COLUMN -----------*/
 .col-10 {
     width: 10%;
 }
