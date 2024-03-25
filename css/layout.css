@@ -7,13 +7,11 @@
 .container-small {
     max-width: 900px;
     margin: auto;
-    /* padding-bottom: 140px; */
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    /* align-items: center; */
 }
 
 .d-flex {
@@ -30,6 +28,11 @@
 
 .col-30 {
     width: 30%;
+}
+
+.col-33 {
+    margin: 50px 10px;
+    width: calc(100% / 3 - 20px);
 }
 
 .col-40 {
