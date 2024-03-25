@@ -17,6 +17,7 @@ main {
 /* IMAGES */
 
 .content {
+    position: relative;
     background-color: yellow;
 }
 
@@ -24,8 +25,10 @@ img {
     width: 100%;
 }
 
+
+/* ----- TEXT ----- */
 .text {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 .brand {
@@ -37,12 +40,44 @@ img {
 }
 
 .price {
+    font-size: 15px;
     font-weight: 600;
     color: red;
 }
 
-.sale {
+.sale-txt {
+    font-size: 15px;
     font-weight: 400;
     color: black;
     text-decoration: line-through;
+}
+
+.sale-label {
+    position: absolute;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    padding: 5px 12px;
+    top: 490px;
+}
+
+.sus-label {
+    position: absolute;
+    font-size: 15px;
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    padding: 5px 10px;
+    top: 490px;
+    right: 210px;
+}
+
+.hearts-label {
+    position: absolute;
+    background-color: white;
+    padding: 2px 10px;
+    font-size: 30px;
+    top: 10px;
+    right: 0px;
 }
