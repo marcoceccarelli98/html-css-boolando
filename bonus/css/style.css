@@ -30,33 +30,24 @@ main {
 }
 
 /* HEADER */
-
-.head-container {
-    max-width: 1200px;
-    margin: auto;
-}
-
 header {
     position: fixed;
     width: 100%;
     background-color: #FF6900;
     z-index: 10;
-    padding: 10px;
     font-weight: 600;
+    box-shadow: 0 2px 1px gray;
 }
 
 .categories {
     display: inline-block;
     vertical-align: middle;
-    align-items: center;
-    text-align: center;
-
 }
 
 .categories a {
     color: white;
     text-decoration: none;
-    margin: 10px;
+    margin-right: 10px;
 }
 
 .logo {
@@ -156,3 +147,24 @@ img {
 .hearts-label:hover {
     color: red;
 }
+
+/* ----- FOOTER ----- */
+
+footer {
+    background-color: #1A1A1A;
+    height: 100px;
+    color: white;
+}
+
+.info {
+    padding: 30px 10px;
+}
+
+.info a {
+    text-decoration: none;
+    padding: 10px 15px 10px 0;
+    color: white;
+    font-size: 15px;
+}
+
+.social {}
